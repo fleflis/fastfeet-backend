@@ -46,6 +46,8 @@ uma aplicação completa, contendo o Back-end, Front-End e Mobile, utilizando as
 
 ### Desafio 1/4
 
+[Link para o desafio](https://github.com/Rocketseat/bootcamp-gostack-desafio-02/blob/master/README.md)
+
 #### Ferramentas
 
 - ✅ Sucrase
