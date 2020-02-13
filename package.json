@@ -7,7 +7,8 @@
 	"author": "Christian Sanches | Fleflis <christian@endless-point.org>",
 	"license": "MIT",
 	"scripts": {
-		"start": "node src/index.js"
+		"dev": "nodemon src/index.js",
+		"dev:debug": "nodemon --inspect src/index.js"
 	},
 	"dependencies": {
 		"express": "^4.17.1"
@@ -18,6 +19,8 @@
 		"eslint-config-prettier": "^6.10.0",
 		"eslint-plugin-import": "^2.20.1",
 		"eslint-plugin-prettier": "^3.1.2",
-		"prettier": "^1.19.1"
+		"nodemon": "^2.0.2",
+		"prettier": "^1.19.1",
+		"sucrase": "^3.12.1"
 	}
 }
