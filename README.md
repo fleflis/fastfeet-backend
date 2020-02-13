@@ -47,7 +47,7 @@ uma aplicação completa, contendo o Back-end, Front-End e Mobile, utilizando as
 
 ## 📝 TODO <a name="todo"></a>
 
-[Link para o TODO / Funcionalidades]()
+[Link para o TODO / Funcionalidades](https://github.com/fleflis/fastfeet-backend/blob/master/Funcionalidades.md)
 
 ## ⛏️ Feito com <a name = "built_using"></a>
 
