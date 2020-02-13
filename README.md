@@ -42,36 +42,12 @@ uma aplicação completa, contendo o Back-end, Front-End e Mobile, utilizando as
 - Depois que clonar o projeto, deve-se fazer as instalações das dependências com  ```yarn install```  ou  ```npm install```.
 - Logo após, só executar ```yarn start``` ou ```npm run start```.
 
+
+
+
 ## 📝 TODO <a name="todo"></a>
 
-### Desafio 1/4
-
-[Link para o desafio](https://github.com/Rocketseat/bootcamp-gostack-desafio-02/blob/master/README.md)
-
-#### Ferramentas
-
-- ✅ Sucrase
-- ✅ Nodemon
-- ✅ ESLint
-- ✅ Prettier
-- ✅ EditorConfig
-- 🔲 Sequelize
-
-#### 1. Autenticação
-
-- 🔲 Criação do Banco de dados
-- 🔲 Migrations -> Users
-- 🔲 Seeds
-- 🔲 Auth com JWT
-- 🔲 Avaliação de dados de entrada
-
-#### 2. Gestão de destinatários
-
-- 🔲 Migrations -> Recipients
-- 🔲 Cadastro de Destinatários
-	- 🔲 Só pode ser feito por administradores autenticados
-	- 🔲 Destinatário não possui senha (sem autenticação)
-- 🔲 Alteração de Destinatários
+[Link para o TODO / Funcionalidades]()
 
 ## ⛏️ Feito com <a name = "built_using"></a>
 
