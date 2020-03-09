@@ -1,6 +1,6 @@
 {
 	"name": "fastfeet-backend",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Backend da aplicação FastFeet, desafio final do bootcamp GoStack feito pela Rocketseat.",
 	"main": "src/index.js",
 	"repository": "https://github.com/fleflis/fastfeet-backend.git",
