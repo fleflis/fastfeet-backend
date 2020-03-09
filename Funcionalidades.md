@@ -11,11 +11,11 @@
 - ✅ ESLint
 - ✅ Prettier
 - ✅ EditorConfig
-- 🔲 Sequelize
+- ✅ Sequelize
 
 ### 1. Autenticação
 
-- 🔲 Criação do Banco de dados
+- ✅ Criação do Banco de dados
 - 🔲 Migrations -> Users
 - 🔲 Seeds
 - 🔲 Auth com JWT
