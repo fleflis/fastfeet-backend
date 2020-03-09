@@ -16,8 +16,8 @@
 ### 1. Autenticação
 
 - ✅ Criação do Banco de dados
-- 🔲 Migrations -> Users
-- 🔲 Seeds
+- ✅ Migrations -> Users
+- ✅ Seeds
 - 🔲 Auth com JWT
 - 🔲 Avaliação de dados de entrada
 
