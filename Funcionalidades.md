@@ -18,7 +18,7 @@
 - ✅ Criação do Banco de dados
 - ✅ Migrations -> Users
 - ✅ Seeds
-- 🔲 Auth com JWT
+- ✅ Auth com JWT
 - 🔲 Avaliação de dados de entrada
 
 ### 2. Gestão de destinatários
