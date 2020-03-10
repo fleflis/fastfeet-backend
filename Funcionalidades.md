@@ -23,7 +23,7 @@
 
 ### 2. Gestão de destinatários
 
-- 🔲 Migrations -> Recipients
+- ✅ Migrations -> Recipients
 - 🔲 Cadastro de Destinatários
 	- 🔲 Só pode ser feito por administradores autenticados
 	- 🔲 Destinatário não possui senha (sem autenticação)
