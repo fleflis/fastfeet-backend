@@ -17,6 +17,9 @@ class User extends Model {
 			}
 		);
 
+		/**
+		 * Function to generate an hashed password.
+		 */
 		this.addHook('beforeSave', async user => {
 			if (user.password) {
 				user.password_hash = await bcrypt.hashSync(user.password, 8);

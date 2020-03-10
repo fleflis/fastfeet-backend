@@ -8,6 +8,7 @@ export default async (req, res, next) => {
 
 	if (!authHeader) return res.status(401).json({ error: 'Token not provided' });
 
+	// Bearer token.
 	const [, token] = authHeader.split(' ');
 
 	try {
@@ -17,6 +18,7 @@ export default async (req, res, next) => {
 
 		return next();
 	} catch (err) {
+		// If it returns an error, the token is invalid.
 		return res.status(401).json({ error: 'Token invalid' });
 	}
 };
