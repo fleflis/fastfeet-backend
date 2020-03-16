@@ -19,7 +19,7 @@
 - ✅ Migrations -> Users
 - ✅ Seeds
 - ✅ Auth com JWT
-- 🔲 Avaliação de dados de entrada
+- ✅ Avaliação de dados de entrada
 
 ### 2. Gestão de destinatários
 
