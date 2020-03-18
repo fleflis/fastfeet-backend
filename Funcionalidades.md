@@ -25,7 +25,7 @@
 
 - ✅ Migrations -> Recipients
 - ✅ Cadastro de Destinatários
-	- 🔲 Só pode ser feito por administradores autenticados
+	- ✅ Só pode ser feito por administradores autenticados
 	- ✅ Destinatário não possui senha (sem autenticação)
 - 🔲 Alteração de Destinatários
 
