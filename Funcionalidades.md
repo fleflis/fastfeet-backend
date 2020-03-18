@@ -27,7 +27,7 @@
 - ✅ Cadastro de Destinatários
 	- ✅ Só pode ser feito por administradores autenticados
 	- ✅ Destinatário não possui senha (sem autenticação)
-- 🔲 Alteração de Destinatários
+- ✅ Alteração de Destinatários
 
 
 ## Desafio 2/4
