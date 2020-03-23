@@ -38,7 +38,7 @@
 
 ### 1. Gestão de entregadores
 
-- 🔲 Migrations -> Deliverers
+- ✅ Migrations -> Deliverers
 - 🔲 Funcionalidades para administradores
 	- 🔲 Cadastro de entregadores
 	- 🔲 Listagem de entregadores
