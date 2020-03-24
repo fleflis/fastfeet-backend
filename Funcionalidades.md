@@ -39,11 +39,11 @@
 ### 1. Gestão de entregadores
 
 - ✅ Migrations -> Deliverers
-- 🔲 Funcionalidades para administradores
+- ✅ Funcionalidades para administradores
 	- ✅ Cadastro de entregadores
 	- ✅ Listagem de entregadores
 	- ✅ Atualização de entregadores
-	- 🔲 Remoção de entregadores
+	- ✅ Remoção de entregadores
 
 ### 1. Gestão de encomendas
 

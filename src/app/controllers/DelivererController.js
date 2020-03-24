@@ -57,6 +57,23 @@ class DelivererController {
 		const deliverers = await Deliverer.findAll({ offset, limit: perPage });
 		res.json(deliverers);
 	}
+
+	async destroy(req, res) {
+		const { id } = req.params;
+		if (!id || typeof id !== 'number') {
+			return res.status(400).json({ error: 'Deliverer ID invalid' });
+		}
+
+		const delivererToDelete = await Deliverer.findByPk(id);
+
+		if (!delivererToDelete) {
+			return res.status(400).json({ error: 'Deliverer does not exist' });
+		}
+
+		await delivererToDelete.destroy();
+
+		return res.status(200).json({ success: true });
+	}
 }
 
 export default new DelivererController();
