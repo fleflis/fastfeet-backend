@@ -41,7 +41,7 @@
 - ✅ Migrations -> Deliverers
 - 🔲 Funcionalidades para administradores
 	- ✅ Cadastro de entregadores
-	- 🔲 Listagem de entregadores
+	- ✅ Listagem de entregadores
 	- ✅ Atualização de entregadores
 	- 🔲 Remoção de entregadores
 

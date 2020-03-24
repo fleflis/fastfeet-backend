@@ -48,6 +48,15 @@ class DelivererController {
 
 		return res.json({ success: true });
 	}
+
+	async index(req, res) {
+		const perPage = 10;
+		const { p: page } = req.query;
+		const offset = (page || 1) * perPage - perPage;
+
+		const deliverers = await Deliverer.findAll({ offset, limit: perPage });
+		res.json(deliverers);
+	}
 }
 
 export default new DelivererController();
