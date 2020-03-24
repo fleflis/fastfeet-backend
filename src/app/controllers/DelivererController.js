@@ -29,17 +29,17 @@ class DelivererController {
 	}
 
 	async update(req, res) {
+		const { id } = req.params;
 		const schema = Yup.object().shape({
 			name: Yup.string(),
+			email: Yup.string().email(),
 		});
 
 		if (!(await schema.isValid(req.body))) {
 			return res.status(400).json({ error: 'Validation failed' });
 		}
 
-		const deliverer = await Deliverer.findOne({
-			where: { email: req.body.email },
-		});
+		const deliverer = await Deliverer.findByPk(id);
 
 		if (!deliverer) {
 			return res.status(400).json({ error: 'User does not exist' });
