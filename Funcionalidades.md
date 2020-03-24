@@ -47,7 +47,7 @@
 
 ### 1. Gestão de encomendas
 
-- 🔲 Migrations -> Orders
+- ✅ Migrations -> Orders
 - 🔲 Funcionalidades para administradores
 	- 🔲 Cadastro de encomendas
 	- 🔲 Listagem de encomendas
